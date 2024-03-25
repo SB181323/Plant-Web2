@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .style {
+        @apply flex items-center;
+    }
+    .col {
+        @apply flex flex-col items-center ;
+    }
+    .state {
+        @apply hover:scale-125 transition-all duration-300;
+    }
+}
